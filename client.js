@@ -1,7 +1,6 @@
 
 const ws = new WebSocket("wss:/127.0.0.1:8080");
 /*"ws://localhost:8081"*/
-/*"ws://192.168.1.94:8081/both"*/
 ws.addEventListener("open", () => {
     console.log("alive I am");
     
